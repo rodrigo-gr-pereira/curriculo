@@ -48,8 +48,6 @@ nav{
    text-decoration: none;
 }
 
-
-/* Configuração do menu de navegação */
 .nav-menu ul {
   list-style: none;
   margin: 0;
@@ -100,17 +98,36 @@ nav{
 
 
  /* main sections */
+ .avatar {
+  display: flex;
+  justify-content: center; /* Centraliza na horizontal */
+  align-items: center;     /* Centraliza na vertical */
+  width: 100%;             /* Garante que ocupe toda a largura disponível */
+  margin: 20px 0;          /* Adiciona um espaço acima e abaixo do avatar */
+}
+
+/* Estilização da imagem do perfil */
+.avatar-perfil {
+  width: 150px;            /* Define uma largura fixa para a foto */
+  height: 150px;           /* Define uma altura idêntica para manter a proporção */
+  object-fit: cover;       /* Impede que a foto fique esticada ou distorcida */
+  border-radius: 50%;      /* Deixa a foto perfeitamente redonda */
+  border: 3px solid #0056b3; /* Adiciona uma borda com a cor do seu tema */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+ 
 #sobre{
   padding: 20px 0; 
   border-bottom: 1px solid #e0e0e0;
   scroll-margin-top: 80px;
 }
 
-#sobre h2{
+#sobre h2 a{
   color: #0056b3;
   font-size: 20px;
   text-transform: uppercase;
    margin-top: 0;
+   text-decoration: none;
 }
 
 #sobre p {
@@ -125,11 +142,12 @@ nav{
   border-bottom: 1px solid #e0e0e0;
   scroll-margin-top: 80px; /* Garante que o menu fixo não cubra o título ao clicar no link */
 }
-#experiencia h2 {
-  color: #0056b3;
+#experiencia h2 a {
+ color: #0056b3;
   font-size: 20px;
   text-transform: uppercase;
-  margin-top: 0;
+   margin-top: 0;
+   text-decoration: none;
 }
 
 .cargo{
@@ -178,11 +196,12 @@ font-weight: bold;
    scroll-margin-top: 80px;
 }
 
-#formacao h2{
+#formacao h2 a{
   color: #0056b3;
-   font-size: 20px;
-    text-transform: uppercase;
+  font-size: 20px;
+  text-transform: uppercase;
    margin-top: 0;
+   text-decoration: none;
 }
 
 .formacao{
@@ -220,11 +239,12 @@ font-weight: bold;
   scroll-margin-top: 80px;
 }
 
-#habilidades h2{
+#habilidades h2 a{
   color: #0056b3;
   font-size: 20px;
   text-transform: uppercase;
-  margin-top: 0;
+   margin-top: 0;
+   text-decoration: none;
 }
 
 .habilidades {
@@ -250,11 +270,12 @@ font-weight: bold;
   scroll-margin-top: 80px;
 }
 
-#portfolio h2{
-  color: #0056b3;
+#portfolio h2 a{
+   color: #0056b3;
   font-size: 20px;
   text-transform: uppercase;
-  margin-top: 0;
+   margin-top: 0;
+   text-decoration: none;
 }
 
 #portfolio p{
@@ -283,11 +304,12 @@ font-weight: bold;
   scroll-margin-top: 80px;
 }
 
-#certificacoes h2{
-  color: #0056b3;
+#certificacoes h2 a{
+   color: #0056b3;
   font-size: 20px;
   text-transform: uppercase;
-  margin-top: 0;
+   margin-top: 0;
+   text-decoration: none;
 }
 
 .certificacoes {
@@ -319,11 +341,12 @@ font-weight: bold;
   scroll-margin-top: 80px;
 }
 
-#idiomas h2{
+#idiomas h2 a{
   color: #0056b3;
   font-size: 20px;
   text-transform: uppercase;
-  margin-top: 0;
+   margin-top: 0;
+   text-decoration: none;
 }
 
 .idiomas{
@@ -339,4 +362,34 @@ font-weight: bold;
 }
 .idiomas-tipos span{
   color: #555;
+}
+
+/* footer */
+footer{
+  margin-top: 50px;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+  text-align: center; color: #666;
+  font-size: 13px;
+}
+
+.footer-register{
+  margin: 0 0 10px 0;
+}
+
+.footer-topo{
+  margin: 0 0 15px 0;
+}
+
+.footer-topo a{
+  color: #0056b3;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.rodape{
+  margin: 0;
+   font-style: italic;
+    font-size: 12px;
+   color: #999;
 }
