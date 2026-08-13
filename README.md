@@ -40,8 +40,9 @@ Para clonar e rodar este projeto na sua máquina, siga os passos abaixo:
 A organização do projeto segue a estrutura padrão de desenvolvimento web:
 
 ```text
+├── components        # componentes  e conteúdo semântico em HTML5
+├── styles        # Folhas de estilo externa responsável pelo design
 ├── index.html        # Estrutura e conteúdo semântico em HTML5
-├── style.css         # Folha de estilo externa responsável pelo design
 └── README.md         # Documentação do projeto (este arquivo)
 ```
 
