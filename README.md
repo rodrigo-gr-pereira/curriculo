@@ -54,4 +54,4 @@ Caso queira conversar sobre oportunidades ou conhecer mais do meu trabalho, voc√
 
 - **E-mail:** [rodrigogr.pereira@gmail.com](mailto:rodrigogr.pereira@gmail.com)
 - **Portf√≥lio Web:** [seu-portfolio.com](https://seu-portfolio.com)
-- **LinkedIn:** [://linkedin.com]([https://://linkedin.com](https://www.linkedin.com/in/rodrigo-das-gra%C3%A7as-pereira-46437a144/)
+- **LinkedIn:** [://linkedin.com]((https://www.linkedin.com/in/rodrigo-das-gra%C3%A7as-pereira-46437a144/)
