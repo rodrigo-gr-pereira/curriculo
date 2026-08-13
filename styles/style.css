@@ -276,5 +276,67 @@ font-weight: bold;
   color: #0056b3;
    text-decoration: none;
 }
+/* Seção: Certificações */
+#certificacoes{
+   padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  scroll-margin-top: 80px;
+}
 
+#certificacoes h2{
+  color: #0056b3;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
 
+.certificacoes {
+  margin-bottom: 12px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.cerificacoes-title strong{
+  font-size: 15px;
+  color: #111;
+}
+.cerificacoes-title span {
+  font-size: 14px;
+  color: #555;
+}
+
+.certificacoes span{
+  font-size: 13px; color: #666;
+   font-weight: bold;
+}
+
+/* idiomas */
+#idiomas{
+   padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  scroll-margin-top: 80px;
+}
+
+#idiomas h2{
+  color: #0056b3;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.idiomas{
+  display: flex;
+   flex-wrap: wrap;
+    gap: 25px;
+   margin: 0;
+}
+
+.idiomas-tipos{
+  font-size: 15px; 
+  color: #333;
+}
+.idiomas-tipos span{
+  color: #555;
+}
