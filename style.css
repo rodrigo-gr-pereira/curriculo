@@ -163,6 +163,10 @@ font-weight: bold;
 }
 
 .formacao{
+  scroll-margin-top: 80px;
+}
+
+.formacao-title{
   display: flex;
    justify-content: space-between;
     align-items: baseline;
@@ -171,21 +175,50 @@ font-weight: bold;
 
 .formacao h3{
   margin: 0;
-   font-size: 16px;
-   color: #111;}
+  font-size: 16px;
+  color: #111;}
 
-   .formacao span{
+.formacao span{
     font-size: 13px;
-     color: #666;
-      font-weight: bold;
+    color: #666;
+    font-weight: bold;
    }
-
-  .formacao p {
-    margin: 2px 0 0 0;
-     font-size: 14px;
-     color: #555;
+.formacao p {
+  margin: 2px 0 0 0;
+  font-size: 14px;
+   color: #555;
   }
 
-  
+  /* Habilidades */
+
+#habilidades{
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  scroll-margin-top: 80px;
+}
+
+#habilidades h2{
+  color: #0056b3;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+}
+
+.habilidades span{
+background-color: #e6f0fa;
+color: #0056b3;
+padding: 6px 12px;
+border-radius: 20px;
+font-size: 13px;
+font-weight: bold;
+}
+
 
 
