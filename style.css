@@ -1,0 +1,48 @@
+header{
+  font-family: Arial,sans-serif;
+  border-bottom: 2px solid #333;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+/*Bloco Principal: Nome e Contatos */
+h1{
+  margin: 0;
+  color: #111;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+p{
+  margin: 5px 0 15px 0;
+  color: #555;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dados-gerais{
+  display: flex;
+   justify-content: space-between;
+    align-items: flex-start;
+     flex-wrap: wrap;
+}
+
+.dados-pessoais{
+  font-size: 14px;
+   color: #444;
+    line-height: 1.6;
+}
+
+/* Barra de Navegação (Menu) */
+nav{
+ margin-top: 15px;
+  background-color: #f4f4f4;
+   padding: 10px;
+    border-radius: 4px;
+}
+
+.email-link, .linkedin-link,.github-link {
+  color: #0066cc;
+   text-decoration: none;
+}
+
+
