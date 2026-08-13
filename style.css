@@ -78,7 +78,6 @@ nav{
 }
  /* main sections */
 #sobre{
-  font-family: Arial, sans-serif; 
   padding: 20px 0; 
   border-bottom: 1px solid #e0e0e0;
   scroll-margin-top: 80px;
@@ -148,5 +147,45 @@ font-weight: bold;
  line-height: 1.5; 
 }
 
+/*  Seção: Formação  */
+#formacao{
+  font-family: Arial, sans-serif;
+   padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+   scroll-margin-top: 80px;
+}
+
+#formacao h2{
+  color: #0056b3;
+   font-size: 20px;
+    text-transform: uppercase;
+   margin-top: 0;
+}
+
+.formacao{
+  display: flex;
+   justify-content: space-between;
+    align-items: baseline;
+   flex-wrap: wrap;
+}
+
+.formacao h3{
+  margin: 0;
+   font-size: 16px;
+   color: #111;}
+
+   .formacao span{
+    font-size: 13px;
+     color: #666;
+      font-weight: bold;
+   }
+
+  .formacao p {
+    margin: 2px 0 0 0;
+     font-size: 14px;
+     color: #555;
+  }
+
+  
 
 
