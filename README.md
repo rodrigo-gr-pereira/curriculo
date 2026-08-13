@@ -41,7 +41,7 @@ A organização do projeto segue a estrutura padrão de desenvolvimento web:
 
 ```text
 ├── components        # componentes  e conteúdo semântico em HTML5
-├── styles            # Folhas de estilo externa responsável pelo design
+├── styles             # Folhas de estilo externa responsável pelo design
 ├── index.html        # Estrutura e conteúdo semântico em HTML5
 └── README.md         # Documentação do projeto (este arquivo)
 ```
