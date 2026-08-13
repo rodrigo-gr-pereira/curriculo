@@ -1,0 +1,342 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header{
+  border-bottom: 2px solid #333;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+/*Bloco Principal: Nome e Contatos */
+h1{
+  margin: 0;
+  color: #111;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+p{
+  margin: 5px 0 15px 0;
+  color: #555;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dados-gerais{
+  display: flex;
+   justify-content: space-between;
+    align-items: flex-start;
+     flex-wrap: wrap;
+}
+
+.dados-pessoais{
+  font-size: 14px;
+   color: #444;
+    line-height: 1.6;
+}
+
+/* Barra de Navegação (Menu) */
+nav{
+ margin-top: 15px;
+  background-color: #f4f4f4;
+   padding: 10px;
+    border-radius: 4px;
+}
+
+.email-link, .linkedin-link,.github-link {
+  color: #0066cc;
+   text-decoration: none;
+}
+
+
+/* Configuração do menu de navegação */
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* Permite quebrar linha se faltar espaço */
+}
+
+/* Estilo padrão dos links */
+.nav-menu a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Efeito ao passar o mouse (opcional, melhora a experiência) */
+.nav-menu a:hover {
+  color: #0056b3;
+}
+
+/* Link de destaque (Portfólio) */
+.nav-menu a.destaque {
+  color: #0056b3;
+}
+
+@media (max-width: 425px) {
+  .nav-menu {
+    padding: 15px 5px;
+  }
+
+  .nav-menu ul {
+    gap: 8px; /* Diminui o espaçamento para caber mais itens por linha */
+    justify-content: space-around; /* Distribui os itens igualmente na tela do celular */
+  }
+
+  .nav-menu a {
+    font-size: 13px; /* Reduz levemente a fonte para otimizar o espaço */
+    padding: 8px 12px; /* Aumenta a área de toque (boa prática para mobile) */
+    background-color: #e0e0e0; /* Cria um formato de "botão" discreto para cada link */
+    border-radius: 4px;
+    flex: 1 1 40%; /* Faz com que os botões fiquem organizados em blocos de 2 por linha */
+    text-align: center;
+  }
+}
+
+
+ /* main sections */
+#sobre{
+  padding: 20px 0; 
+  border-bottom: 1px solid #e0e0e0;
+  scroll-margin-top: 80px;
+}
+
+#sobre h2{
+  color: #0056b3;
+  font-size: 20px;
+  text-transform: uppercase;
+   margin-top: 0;
+}
+
+#sobre p {
+  color: #333333;
+  line-height: 1.6;
+  font-size: 15px;
+  margin: 0;
+}
+
+#experiencia {
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  scroll-margin-top: 80px; /* Garante que o menu fixo não cubra o título ao clicar no link */
+}
+#experiencia h2 {
+  color: #0056b3;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.cargo{
+  margin-bottom: 20px;
+}
+
+.cargo-cabecalho{
+ display: flex;
+ justify-content: space-between;
+ align-items: baseline; flex-wrap: wrap;
+}
+
+
+.cargo-cabecalho h3{
+ margin: 0;
+  font-size: 16px;
+   color: #111;
+}
+
+.cargo-cabecalho span{
+font-size: 13px;
+color: #666;
+font-weight: bold;
+}
+
+.cargo p{
+ margin: 2px 0 8px 0;
+ font-size: 14px;
+ color: #555;
+ font-style: italic;
+}
+
+.cargo ul{
+ margin: 0;
+ padding-left: 20px;
+ color: #444;
+ font-size: 14px;
+ line-height: 1.5; 
+}
+
+/*  Seção: Formação  */
+#formacao{
+  font-family: Arial, sans-serif;
+   padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+   scroll-margin-top: 80px;
+}
+
+#formacao h2{
+  color: #0056b3;
+   font-size: 20px;
+    text-transform: uppercase;
+   margin-top: 0;
+}
+
+.formacao{
+  scroll-margin-top: 80px;
+}
+
+.formacao-title{
+  display: flex;
+   justify-content: space-between;
+    align-items: baseline;
+   flex-wrap: wrap;
+}
+
+.formacao h3{
+  margin: 0;
+  font-size: 16px;
+  color: #111;}
+
+.formacao span{
+    font-size: 13px;
+    color: #666;
+    font-weight: bold;
+   }
+.formacao p {
+  margin: 2px 0 0 0;
+  font-size: 14px;
+   color: #555;
+  }
+
+  /* Habilidades */
+
+#habilidades{
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  scroll-margin-top: 80px;
+}
+
+#habilidades h2{
+  color: #0056b3;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+}
+
+.habilidades span{
+background-color: #e6f0fa;
+color: #0056b3;
+padding: 6px 12px;
+border-radius: 20px;
+font-size: 13px;
+font-weight: bold;
+}
+
+/* Seção: Portfólio */
+#portfolio{
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  scroll-margin-top: 80px;
+}
+
+#portfolio h2{
+  color: #0056b3;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+#portfolio p{
+  color: #333;
+  line-height: 1.6;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+
+#portfolio ul{
+  margin: 0;
+  padding-left: 20px;
+  color: #444;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+#portfolio li a {
+  color: #0056b3;
+   text-decoration: none;
+}
+/* Seção: Certificações */
+#certificacoes{
+   padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  scroll-margin-top: 80px;
+}
+
+#certificacoes h2{
+  color: #0056b3;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.certificacoes {
+  margin-bottom: 12px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.cerificacoes-title strong{
+  font-size: 15px;
+  color: #111;
+}
+.cerificacoes-title span {
+  font-size: 14px;
+  color: #555;
+}
+
+.certificacoes span{
+  font-size: 13px; color: #666;
+   font-weight: bold;
+}
+
+/* idiomas */
+#idiomas{
+   padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  scroll-margin-top: 80px;
+}
+
+#idiomas h2{
+  color: #0056b3;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.idiomas{
+  display: flex;
+   flex-wrap: wrap;
+    gap: 25px;
+   margin: 0;
+}
+
+.idiomas-tipos{
+  font-size: 15px; 
+  color: #333;
+}
+.idiomas-tipos span{
+  color: #555;
+}
