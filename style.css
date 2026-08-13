@@ -57,6 +57,7 @@ nav{
   display: flex;
   gap: 20px;
   justify-content: center;
+  flex-wrap: wrap; /* Permite quebrar linha se faltar espaço */
 }
 
 /* Estilo padrão dos links */
@@ -76,6 +77,28 @@ nav{
 .nav-menu a.destaque {
   color: #0056b3;
 }
+
+@media (max-width: 425px) {
+  .nav-menu {
+    padding: 15px 5px;
+  }
+
+  .nav-menu ul {
+    gap: 8px; /* Diminui o espaçamento para caber mais itens por linha */
+    justify-content: space-around; /* Distribui os itens igualmente na tela do celular */
+  }
+
+  .nav-menu a {
+    font-size: 13px; /* Reduz levemente a fonte para otimizar o espaço */
+    padding: 8px 12px; /* Aumenta a área de toque (boa prática para mobile) */
+    background-color: #e0e0e0; /* Cria um formato de "botão" discreto para cada link */
+    border-radius: 4px;
+    flex: 1 1 40%; /* Faz com que os botões fiquem organizados em blocos de 2 por linha */
+    text-align: center;
+  }
+}
+
+
  /* main sections */
 #sobre{
   padding: 20px 0; 
@@ -219,6 +242,9 @@ border-radius: 20px;
 font-size: 13px;
 font-weight: bold;
 }
+
+/* Seção: Portfólio */
+
 
 
 
