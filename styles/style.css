@@ -48,6 +48,13 @@ nav{
    text-decoration: none;
 }
 
+/* Estilos Base para o Menu (Computador / Telas Grandes) */
+.nav-menu {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+}
+
 .nav-menu ul {
   list-style: none;
   margin: 0;
@@ -58,13 +65,41 @@ nav{
   flex-wrap: wrap; /* Permite quebrar linha se faltar espaço */
 }
 
-/* Estilo padrão dos links */
 .nav-menu a {
   color: #333;
   text-decoration: none;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
+  padding: 5px 10px;
+  display: inline-block;
 }
+
+.nav-menu a.destaque {
+  color: #0056b3; /* Cor diferenciada para o item de destaque */
+}
+
+/* Ajuste Responsivo para Celulares (Até 425px de largura, cobrindo 375x667) */
+@media (max-width: 425px) {
+  .nav-menu {
+    padding: 15px 5px;
+  }
+
+  .nav-menu ul {
+    gap: 8px; /* Diminui o espaçamento para caber mais itens por linha */
+    justify-content: space-around; /* Distribui os itens igualmente na tela do celular */
+  }
+
+  .nav-menu a {
+    font-size: 13px; /* Reduz levemente a fonte para otimizar o espaço */
+    padding: 8px 12px; /* Aumenta a área de toque (boa prática para mobile) */
+    background-color: #e0e0e0; /* Cria um formato de "botão" discreto para cada link */
+    border-radius: 4px;
+    flex: 1 1 40%; /* Faz com que os botões fiquem organizados em blocos de 2 por linha */
+    text-align: center;
+  }
+}
+
 
 /* Efeito ao passar o mouse (opcional, melhora a experiência) */
 .nav-menu a:hover {
@@ -108,13 +143,22 @@ nav{
 
 /* Estilização da imagem do perfil */
 .avatar-perfil {
-  width: 150px;            /* Define uma largura fixa para a foto */
-  height: 150px;           /* Define uma altura idêntica para manter a proporção */
-  object-fit: cover;       /* Impede que a foto fique esticada ou distorcida */
-  border-radius: 50%;      /* Deixa a foto perfeitamente redonda */
-  border: 3px solid #0056b3; /* Adiciona uma borda com a cor do seu tema */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    /* Define um tamanho fixo ideal para fotos de perfil de currículo */
+    width: 150px;
+    height: 150px;
+    
+    /* Garante que a foto vire um círculo perfeito sem achatar ou esticar */
+    border-radius: 50%;
+    object-fit: cover;
+    
+    /* Força o navegador a usar o melhor algoritmo de nitidez ao redimensionar */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    
+    /* Opcional: Um leve tratamento de imagem direto no navegador */
+    filter: contrast(1.05) saturate(1.02);
 }
+
  
 #sobre{
   padding: 20px 0; 
