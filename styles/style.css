@@ -336,9 +336,8 @@ font-weight: bold;
 
 /* idiomas */
 #idiomas{
-   padding: 20px 0;
-  border-bottom: 1px solid #e0e0e0;
-  scroll-margin-top: 80px;
+  padding: 5px 0;
+ scroll-margin-top: 80px;
 }
 
 #idiomas h2 a{
@@ -369,22 +368,13 @@ footer{
   margin-top: 50px;
   padding: 20px 0;
   border-top: 1px solid #e0e0e0;
-  text-align: center; color: #666;
-  font-size: 13px;
+  text-align: center;
+   color: #666;
+  font-size: 40px;
 }
 
 .footer-register{
   margin: 0 0 10px 0;
-}
-
-.footer-topo{
-  margin: 0 0 15px 0;
-}
-
-.footer-topo a{
-  color: #0056b3;
-   text-decoration: none;
-   font-weight: bold;
 }
 
 .rodape{
@@ -393,3 +383,50 @@ footer{
     font-size: 12px;
    color: #999;
 }
+
+.rodape-redes {
+
+ margin-top: 10px;
+ padding: 10px;
+}
+
+.rodape-redes a i{
+  padding: 30px;
+   color: #0056b3;
+}
+
+.footer-topo {
+    position: fixed;     /* Fixa o elemento na tela, ignorando a rolagem */
+    bottom: 20px;        /* Distância de 20px da borda inferior */
+    right: 20px;         /* Distância de 20px da borda direita */
+    z-index: 9999;       /* Garante que o botão fique em cima de outros elementos */
+    margin: 0;           /* Remove margens padrão do parágrafo */
+}
+
+.footer-topo a {
+    display: flex;       /* Alinha o ícone e o texto lado a lado perfeitamente */
+    align-items: center; /* Centraliza verticalmente o ícone e o texto */
+    gap: 8px;            /* Cria um espaçamento de 8px entre o ícone e o texto */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    background-color: #333; /* Cor de fundo do botão (ajuste como quiser) */
+    color: #fff;         /* Cor do texto e do ícone */
+    padding: 10px 15px;  /* Espaçamento interno para dar formato de botão */
+    border-radius: 30px; /* Deixa as bordas arredondadas estilo pílula */
+    font-size: 14px;     /* Tamanho da fonte do texto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para dar efeito flutuante */
+    transition: all 0.3s ease; /* Transição suave para o efeito de passar o mouse */
+}
+
+/* Efeito visual ao passar o mouse por cima (Hover) */
+.footer-topo a:hover {
+    background-color: #007bff; /* Muda a cor de fundo (ex: azul) */
+    transform: translateY(-3px); /* Faz o botão subir levemente */
+}
+
+/* Se quiser aumentar apenas o ícone do Font Awesome dentro do botão */
+.footer-topo a i {
+    font-size: 18px; 
+}
+
+
+
