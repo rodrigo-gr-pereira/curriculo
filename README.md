@@ -47,11 +47,11 @@ A organização do projeto segue a estrutura padrão de desenvolvimento web:
 ```
 
 ---
-
 ## 📬 Contato
 
 Caso queira conversar sobre oportunidades ou conhecer mais do meu trabalho, você pode me encontrar em:
 
-- **E-mail:** [rodrigogr.pereira@gmail.com](mailto:rodrigogr.pereira@gmail.com)
-- **Portfólio Web:** [seu-portfolio.com](https://seu-portfolio.com)
-- **LinkedIn:** [linkedin.com](https://www.linkedin.com/in/rodrigo-das-gra%C3%A7as-pereira-46437a144/)
+- **E-mail:** <a href="mailto:rodrigogr.pereira@gmail.com" target="_blank">rodrigogr.pereira@gmail.com</a>
+- **Web:** <a href="https://rodrigo-gr-pereira.github.io/curriculo/" target="_blank">Curriculo</a>
+- **LinkedIn:** <a href="https://www.linkedin.com/in/rodrigo-das-gra%C3%A7as-pereira-46437a144/" target="_blank">linkedin.com</a>
+
